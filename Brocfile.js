@@ -18,4 +18,14 @@ var app = new EmberAddon();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
+app.import({
+  'development': app.bowerDirectory + '/clockpicker/dist/bootstrap-clockpicker.js',
+  'production' : app.bowerDirectory + '/clockpicker/dist/bootstrap-clockpicker.min.js'
+});
+
+app.import({
+  'development': app.bowerDirectory + '/clockpicker/dist/bootstrap-clockpicker.css',
+  'production' : app.bowerDirectory + '/clockpicker/dist/bootstrap-clockpicker.min.css'
+})
+
 module.exports = app.toTree();
