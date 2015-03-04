@@ -10,6 +10,5 @@ Initial Task List
 - [x] Add clockpicker by @weareoutman
 - [ ] Wrap up functionality
 - [ ] Unit Tests
--- [ ] Component Tests
 - [ ] Documentation
 - [x] Register with Bower
